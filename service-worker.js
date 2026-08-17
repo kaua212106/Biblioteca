@@ -1,5 +1,5 @@
 const CACHE_NAME="minha-biblioteca-v6";
-const SHELL=["./","./index.html","./manifest.json","./icone.png"];
+const SHELL=["./","./index.html","./manifest.json","./icone.png",'./auth-guard-v3.js'];
 
 self.addEventListener("install",event=>{
   self.skipWaiting();
